@@ -5,7 +5,7 @@ import requests
 url = 'https://www.binance.com/api/v3/ticker/24hr'
 
 
-response = requests.get(api_url)
+response = requests.get(url)
 
 
 if response.status_code == 200:
